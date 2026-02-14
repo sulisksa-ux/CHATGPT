@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع البيع الجماعي</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">موقع البيع الجماعي</div>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">العروض</a>
+    <a href="#">طلباتي</a>
+  </nav>
+  <button class="btn">تسجيل الدخول</button>
+</header>
+<section class="hero">
+  <div>
+    <h1>اشترِ بسعر الجملة عبر الشراء الجماعي</h1>
+    <p>الدفع تحويل بنكي • الاستلام من موقع التاجر</p>
+  </div>
+</section>
+<div class="container">
+  <div class="section-title">عروض قيد التجميع</div>
+  <div class="products" id="product-list"></div>
+</div>
+<div class="container">
+  <div class="section-title">الدفع بالتحويل البنكي</div>
+  <div class="product-card">
+    <p>البنك: الراجحي</p>
+    <p>الآيبان: SA000000000000</p>
+    <label>رفع صورة التحويل</label>
+    <input type="file" id="transfer-image">
+    <button class="btn" onclick="submitPayment()">إرسال التحويل</button>
+</html>
